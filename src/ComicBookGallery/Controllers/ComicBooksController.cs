@@ -25,6 +25,7 @@ namespace ComicBookGallery.Controllers
                     new Artist() {Name = "Chris Eliopoulos", Role = "Letters"}
                 }
             };
+
             return View(comicBook);
         }
     }
